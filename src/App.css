@@ -27,7 +27,26 @@
 .App-link {
   color: #61dafb;
 }
+.product-container{
+  display:grid;
+  grid-template-columns: 24% 24% 24% 24%;
+  grid-gap: 1%;
+}
+.image{
+  width:50%;
+  height:50%;
+  object-fit: contain;
+}
+.align
+{
+  text-align: justify;
+  padding:0 10px;
+}
 
+.delete-btn{
+  position: absolute;
+  bottom: 0;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
